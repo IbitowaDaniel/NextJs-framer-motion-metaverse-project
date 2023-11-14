@@ -16,6 +16,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
       src={imgUrl}
       alt="planet-01"
       className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover"
+      priority
     />
     <div className="w-full flex justify-between items-center">
       <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">

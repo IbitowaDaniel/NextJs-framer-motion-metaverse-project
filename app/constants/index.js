@@ -1,4 +1,4 @@
-import { planet01, planet02, planet03, planet04, planet05 } from "../assets";
+import { planet01, planet02, planet03, planet04, planet05, planet06, planet07, planet08, vrpano, headset, twitter, instagram, linkedin, facebook } from "../assets";
 
 export const exploreWorlds = [
   {
@@ -36,13 +36,13 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
+    imgUrl: vrpano,
     title: 'A new world',
     subtitle:
         'we have the latest update with new world for you to try never mind',
   },
   {
-    imgUrl: '/headset.svg',
+    imgUrl: headset,
     title: 'More realistic',
     subtitle:
         'In the latest update, your eyes are narrow, making the world more realistic than ever',
@@ -51,19 +51,19 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
+    imgUrl: planet06,
     title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
     subtitle:
         'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
   },
   {
-    imgUrl: '/planet-07.png',
+    imgUrl: planet07,
     title: '7 tips to easily master the madness of the Metaverse',
     subtitle:
         'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
   },
   {
-    imgUrl: '/planet-08.png',
+    imgUrl: planet08,
     title: 'With one platform you can explore the whole world virtually',
     subtitle:
         'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
@@ -73,18 +73,18 @@ export const insights = [
 export const socials = [
   {
     name: 'twitter',
-    url: '/twitter.svg',
+    url: twitter,
   },
   {
     name: 'linkedin',
-    url: '/linkedin.svg',
+    url: linkedin,
   },
   {
     name: 'instagram',
-    url: '/instagram.svg',
+    url: instagram,
   },
   {
     name: 'facebook',
-    url: '/facebook.svg',
+    url: facebook,
   },
 ];
