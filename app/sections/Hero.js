@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import styles from "../styles/styles";
 import { slideIn, staggerContainer, textVariant } from "../components/utils/motion";
-import Link from "next/link";
+import { Link } from 'react-scroll'
 import Image from "next/image";
 import { cover, stamp } from "../assets";
 
@@ -42,9 +42,13 @@ const Hero = () => {
                         src={cover}
                         alt="hero_cover"
                         className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
+                        priority
                     />
 
-                    <Link href="/">
+                    <Link
+                        to="#explore"
+                        smooth={true}
+                    >
                         <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
                             <Image
                                 src={stamp}
